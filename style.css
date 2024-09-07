@@ -1,0 +1,68 @@
+body{
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+    background-color: #0A2463;
+    position: absolute;
+    left: 0;    
+    top: 0;
+    width: 100%;
+}
+h1{
+    color: white;
+    font-size: 2.5rem;
+    margin: 20px;
+}
+.menu-busca{
+
+    position: absolute;
+    top: 20px;
+    right:30px;
+}
+section input{
+    width: 30rem;
+    border: none; 
+    padding: 1rem;
+    border-radius: 1.5rem; 
+    color: #45474B;
+    font-size: 1rem;    
+}
+section button{
+    background-color: white;
+    border-radius: 1.5rem;
+    padding: 1rem;
+}
+.resultado-pesquisa{
+    position: absolute;
+    top:7rem;
+    left: 500px;
+    width: 60rem; 
+    height: 40rem;
+    overflow-y: auto; 
+    margin-top: 1rem; 
+    padding: 1rem; 
+    border-radius: 0.6rem; 
+
+}
+.item-resultado{
+    background-color: aliceblue;
+    border-radius: 0.6rem; 
+    padding: 1rem; 
+    margin-bottom: 1rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+footer{
+    color: white;
+    background-color: #0A2463;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
+.footer-h2{
+    padding: 0.5rem;
+}
